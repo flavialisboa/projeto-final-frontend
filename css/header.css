@@ -1,0 +1,66 @@
+body{
+	font-family: 'Padauk', sans-serif;
+}
+
+.header{
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.header .cabecalho-nav{
+    margin: 30px;
+}
+
+.header .cabecalho-nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .nav-link{
+    text-transform: uppercase;
+    text-align: center;
+	color: #ffffff;
+	margin: 0 5px 10px 5px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+    border-radius: 5px;
+}
+
+.header .nav-link:hover{
+    background-color: #48A3A6;
+    transition: 0.5s;
+}
+
+.header .titles{
+    text-align: center;
+    padding: 0 0 44px 0;
+    text-transform: uppercase;
+}
+
+.header .panel-main{
+    text-shadow: 2px 2px 8px #000000;
+    color: #ffffff;
+}
+
+#aluraconf{
+    font-size: 3em;
+}
+
+#date-place{
+    color: #64ff64;
+    font-size: 2.6em;
+    margin-top: 8px;
+}
+
+.header .titles .panel-subscribe{
+    margin-top: 28px;
+}
+
+@media (min-width: 650px){
+    .header .titles{
+        font-size: 28px;
+    }
+}

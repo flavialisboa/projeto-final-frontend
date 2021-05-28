@@ -1,0 +1,30 @@
+.form{
+    margin-top: 32px;
+}
+
+.form #form-title{
+    color: #EF7247;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+}
+
+.form label{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form input{
+    width: 100%;
+    margin: 10px 0 20px;
+    height: 2em;
+    border-radius: 7px;
+    box-shadow: 1px 1px 0.5em #3df599;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.button-place{
+    text-align: center;
+}

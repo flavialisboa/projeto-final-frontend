@@ -1,0 +1,16 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    background: #48a3a6;
+    padding: 25px 50px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #000000;
+}
